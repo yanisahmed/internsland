@@ -13,11 +13,13 @@ const Interns = () => {
     }, [])
 
     return (
-        <div>
-            {
+        <div className='container'>
+            <div className='interns'>
+                {
 
-                users.map(user => <SingleInterns key={user.id} user={user} />)
-            }
+                    users.map(user => <SingleInterns key={user.id} user={user} />)
+                }
+            </div>
         </div>
     );
 };

@@ -1,0 +1,17 @@
+.interns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+}
+.single-interns{
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: #FF7F50;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+}
