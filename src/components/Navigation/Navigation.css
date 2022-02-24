@@ -23,7 +23,7 @@ nav a{
     display: inline-block;
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 768px) { 
     .primary-menu{
       justify-content:flex-start;
     }
