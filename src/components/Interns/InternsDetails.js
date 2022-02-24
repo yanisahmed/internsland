@@ -16,14 +16,14 @@ const InternsDetails = () => {
 
 
     return (
-        <div>
-            InternsDetails of id {id};
-            <h3> {data.name}</h3>
-            <h3> {data.username}</h3>
-            <h3> {data.email}</h3>
+        <div className='container'>
+            <h3>Username: {data.username}</h3>
+            <h3>Name:  {data.name}</h3>
+            <h3>Email: {data.email}</h3>
+            <h3>Website: {data.website}</h3>
 
 
-            <span className='button'><Link to="/hire">Go Back</Link></span>
+            <span className='button'><Link className='link-button' to="/hire">Go Back</Link></span>
         </div>
     );
 };
