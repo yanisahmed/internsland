@@ -1,0 +1,30 @@
+.primary-menu{
+    display: flex;
+    justify-content: space-between;
+   
+    height: 70px;
+}
+
+header{
+    background-color: black;
+}
+
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+
+nav a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 37px 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+@media (max-width: 576px) { 
+    .primary-menu{
+      justify-content:flex-start;
+    }
+  }
