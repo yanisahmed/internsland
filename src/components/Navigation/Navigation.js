@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Navigation.css'
 import { Link } from 'react-router-dom';
 import Logo from '../../images/logo-internsland.png'
@@ -9,7 +9,7 @@ function Navigation(props) {
             <div className="container">
                 <div className='primary-menu'>
                     <div className='logo'>
-                        <img src={Logo} alt="" />
+                        <Link to="/"><img src={Logo} alt="" /></Link>
                     </div>
                     <nav>
                         <Link to="/">Home</Link>
